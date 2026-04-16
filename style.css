@@ -373,3 +373,21 @@ h1, h2, h3, p {
     height: 145px;
   }
 }
+.project-link {
+  margin-top: 18px;
+}
+
+.project-link a {
+  display: inline-block;
+  padding: 10px 16px;
+  border-radius: 999px;
+  background: rgba(200, 163, 101, 0.12);
+  color: var(--accent-gold);
+  font-weight: 700;
+  border: 1px solid rgba(200, 163, 101, 0.22);
+  transition: 0.2s ease;
+}
+
+.project-link a:hover {
+  background: rgba(200, 163, 101, 0.2);
+}
