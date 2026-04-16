@@ -287,8 +287,20 @@ h1, h2, h3, p {
 }
 
 .feature-card {
-  background: rgba(250, 246, 245, 0.98);
-  border: 1px solid var(--light-stroke);
+  background: rgba(255, 255, 255, 0.05);   /* 👈 glass */
+  border: 1px solid rgba(255, 255, 255, 0.08);
+
+  backdrop-filter: blur(18px);             /* 👈 glass blur */
+  -webkit-backdrop-filter: blur(18px);
+
+  border-radius: 28px;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.35);
+
+  padding: 22px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
   border-radius: 28px;
   box-shadow: var(--shadow-light);
   padding: 22px;
