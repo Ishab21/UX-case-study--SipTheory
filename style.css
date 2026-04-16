@@ -218,8 +218,8 @@ h1, h2, h3, p {
 }
 
 .summary-card {
-  background: var(--light-card);
-  border: 1px solid var(--light-stroke);
+  background: rgba(255, 255, 255, 0.04);  /* soft glass */
+  border: 1px solid rgba(255, 255, 255, 0.08);
   border-radius: 28px;
   box-shadow: var(--shadow-light);
   padding: 24px;
